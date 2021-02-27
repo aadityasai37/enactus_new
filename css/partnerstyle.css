@@ -33,9 +33,11 @@ h4{
   bottom:100px;
 } */
 .nav-pic{
-  width:10%;
+  width:15%;
 }
-
+.nav-test{
+  display: none;
+}
 p {
   color: #000;
   font-size: 1.5rem;
@@ -76,3 +78,13 @@ p {
   border: none;
   background-color:#fff;
 }
+@media (max-width:1200px) {
+  /* .floater-image {
+    display: none;
+  } */
+  .nav-pic{
+    display: none;
+  }
+  .nav-test{
+    display: inline-block;
+  }

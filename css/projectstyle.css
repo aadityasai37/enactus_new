@@ -54,9 +54,11 @@ hr{
   bottom:100px;
 }
 .nav-pic{
-  width:10%;
+  width:15%;
 }
-
+.nav-test{
+  display: none;
+}
 p {
   color: #000;
   font-size: 1.5rem;
@@ -139,7 +141,7 @@ background-color: #ffc620;
   border: none;
   background-color:#fff;
 }
-@media (max-width:1080px) {
+/* @media (max-width:1080px) {
   .floater-image{
     display: none;
   }
@@ -150,4 +152,14 @@ background-color: #ffc620;
   .desc-row-two{
     float:right;
   }
-}
+} */
+@media (max-width:1200px) {
+  /* .floater-image {
+    display: none;
+  } */
+  .nav-pic{
+    display: none;
+  }
+  .nav-test{
+    display: inline-block;
+  }
